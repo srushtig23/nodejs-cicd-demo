@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/<your-username>/nodejs-cicd-demo.git'
+                git 'https://github.com/srushtig23/nodejs-cicd-demo.git'
             }
         }
         stage('Build') {
